@@ -1,11 +1,11 @@
 {
   "name": "ighan-di-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"# ighan-di-container\"",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "prepare" : "npm run build",
+    "prepare": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
