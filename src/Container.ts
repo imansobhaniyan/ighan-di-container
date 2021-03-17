@@ -1,4 +1,4 @@
-namespace DI {
+declare module DI {
     export class Container {
         static dependencies: { [id: string]: (injector: Injector) => any; } = {}
 

@@ -1,6 +1,6 @@
 {
   "name": "ighan-di-container",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "\"# ighan-di-container\"",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
