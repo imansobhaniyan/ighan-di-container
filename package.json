@@ -1,9 +1,9 @@
 {
   "name": "ighan-di-container",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "\"# ighan-di-container\"",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
@@ -23,6 +23,7 @@
   "files": [
     "lib/**/*"
   ],
+  "typings": "di-types",
   "devDependencies": {
     "typescript": "^4.2.3"
   },
