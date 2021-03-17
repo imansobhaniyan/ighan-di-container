@@ -1,9 +1,5 @@
-import Container from "./Container";
+import { Container } from "./Container";
 
-export class Injector {
-    public static get = (type: any): void => {
-        return Container.dependencies[type.name](Injector);
-    }
+export function get(type: any): void {
+    return Container.dependencies[type.name](get);
 }
-
-export default Injector;
