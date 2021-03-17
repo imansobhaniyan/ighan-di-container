@@ -1,2 +1,2 @@
-export * from "./lib/Container"
-export * from "./lib/Injector"
+export * from "./src/Container"
+export * from "./src/Injector"
