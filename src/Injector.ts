@@ -1,5 +1,5 @@
-import { Container } from "./Container";
+import { Dependencies } from './Dependencies';
 
 export function get(type: any): void {
-    return Container.dependencies[type.name](get);
+    return Dependencies.dependencies[type.name](get);
 }

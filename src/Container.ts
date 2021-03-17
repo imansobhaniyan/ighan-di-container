@@ -1,10 +1,7 @@
 import { get } from './Injector';
-
-export class Container {
-    public static dependencies: { [id: string]: (injector: typeof get) => any; } = {}
-}
+import { Dependencies } from './Dependencies';
 
 export function add<T>(id: string, func: (injector: typeof get) => T): typeof add {
-    Container.dependencies[id] = func;
+    Dependencies.dependencies[id] = func;
     return add;
 }
