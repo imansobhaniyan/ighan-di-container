@@ -8,4 +8,4 @@ export module DI {
     }
 }
 
-export default DI;
+export default DI.Injector;
