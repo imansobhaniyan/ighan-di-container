@@ -1,5 +1,5 @@
 // import { get } from './Injector';
-import { Injector } from './Injector';
+import Injector from './Injector';
 import { Dependencies } from './Dependencies';
 
 // export function add<T>(id: string, func: (injector: typeof get) => T): typeof add {
