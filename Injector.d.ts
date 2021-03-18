@@ -1,1 +1,1 @@
-export declare function get(type: any): void;
+export declare function get<T>(type: any): T;
