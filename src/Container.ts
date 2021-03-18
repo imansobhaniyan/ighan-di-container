@@ -13,3 +13,5 @@ export class Container {
         return Container;
     }
 }
+
+export default Container;

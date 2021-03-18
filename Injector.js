@@ -11,3 +11,4 @@ var Injector = /** @class */ (function () {
     return Injector;
 }());
 export { Injector };
+export default Injector;

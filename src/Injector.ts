@@ -9,3 +9,5 @@ export class Injector {
         return Dependencies.dependencies[type.name](Injector);
     }
 }
+
+export default Injector;

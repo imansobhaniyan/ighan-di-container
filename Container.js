@@ -13,3 +13,4 @@ var Container = /** @class */ (function () {
     return Container;
 }());
 export { Container };
+export default Container;
