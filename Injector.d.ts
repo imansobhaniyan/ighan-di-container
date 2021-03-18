@@ -1,1 +1,3 @@
-export declare function get<T>(type: any): T;
+export declare class Injector {
+    static get: <T>(type: any) => T;
+}

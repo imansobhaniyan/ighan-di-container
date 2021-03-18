@@ -1,2 +1,4 @@
-import { get } from './Injector';
-export declare function add<T>(id: string, func: (injector: typeof get) => T): typeof add;
+import { Injector } from './Injector';
+export declare class Container {
+    static add: <T>(id: string, func: (injector: Injector) => T) => Container;
+}

@@ -1,6 +1,6 @@
-import { get } from './Injector';
+import { Injector } from './Injector';
 export declare class Dependencies {
     static dependencies: {
-        [id: string]: (injector: typeof get) => any;
+        [id: string]: (injector: Injector) => any;
     };
 }
