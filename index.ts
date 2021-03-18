@@ -5,8 +5,8 @@ export * from "./src/Container"
 export * from "./src/Injector"
 
 export class DI {
-    public get = get;
-    public add = add;
+    public static get = get;
+    public static add = add;
 }
 
 export default DI;
