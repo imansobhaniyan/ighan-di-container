@@ -23,7 +23,8 @@
   "files": [
     "**/*"
   ],
-  "typings": "di-types",
+  "type": "module",
+  "typings": "",
   "devDependencies": {
     "typescript": "^4.2.3"
   },
